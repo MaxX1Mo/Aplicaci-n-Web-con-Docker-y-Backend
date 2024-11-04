@@ -1,17 +1,18 @@
-/* Reseteo básico */
-* {
+        * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
 }
 
 /* Header */
 header {
-    background-color: #333;
+    background-color: #2c3e50;
     padding: 1rem;
     color: #fff;
     text-align: center;
@@ -27,6 +28,11 @@ nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #1abc9c;
 }
 
 /* Sección Principal */
@@ -38,17 +44,32 @@ nav a {
 #inicio img {
     width: 100%;
     max-width: 800px;
+    border-radius: 10px;
 }
 
 /* Sección de Servicios */
 #servicios {
     padding: 2rem;
-    background-color: #f4f4f4;
+    background-color: #ecf0f1;
     text-align: center;
 }
 
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
 .servicio {
-    margin: 1rem 0;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.servicio:hover {
+    transform: translateY(-5px);
 }
 
 /* Formulario */
@@ -59,31 +80,47 @@ nav a {
 form {
     max-width: 500px;
     margin: auto;
-}
-
-label {
-    display: block;
-    margin: 0.5rem 0;
+    background: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 input, textarea {
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.7rem;
     margin-bottom: 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
 }
 
 button {
     padding: 0.7rem 1.5rem;
-    background-color: #333;
+    background-color: #2c3e50;
     color: #fff;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #34495e;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #2c3e50;
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
