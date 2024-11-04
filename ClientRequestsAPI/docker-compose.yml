@@ -1,0 +1,45 @@
+﻿services:
+  clientrequestsapi:
+    image: ${DOCKER_REGISTRY-}clientrequestsapi
+    build:
+      context: .
+      dockerfile: ClientRequestsAPI/Dockerfile
+    ports: 
+      - "5024:80"
+    depends_on:
+      - mysql
+  # Servicio de la base de datos MySQL
+  mysql:
+    image: ${DOCKER_REGISTRY-}mysql:8.0
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: 12345678    # Contrase�a root
+      MYSQL_DATABASE: client_db        # Base de datos inicial
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  # Servicio de phpMyAdmin
+  phpmyadmin:
+    image: ${DOCKER_REGISTRY-}phpmyadmin:latest
+    container_name: phpmyadmin
+    environment:
+      PMA_HOST: mysql-db
+      PMA_PORT: 3306
+      MYSQL_ROOT_PASSWORD: 12345678    # Contrase�a root para phpMyAdmin
+    ports:
+      - "8081:80"                      # Acceso phpMyAdmin en http://localhost:8081
+
+  # Servicio del frontend
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    ports:
+      - "5000:80"                       # Acceso frontend en http://localhost:8080
+    depends_on:
+      - clientrequestsapi
+
+volumes:
+  mysql_data:

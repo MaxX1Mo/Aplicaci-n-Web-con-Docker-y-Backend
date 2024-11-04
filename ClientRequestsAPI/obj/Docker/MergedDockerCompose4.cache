@@ -1,0 +1,83 @@
+name: dockercompose5204650953546653000
+services:
+  clientrequestsapi:
+    build:
+      context: E:\ProyectoDockerCompose\ClientRequestsAPI
+      dockerfile: ClientRequestsAPI/Dockerfile
+    depends_on:
+      mysql:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: clientrequestsapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "50500"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+  frontend:
+    build:
+      context: E:\ProyectoDockerCompose\ClientRequestsAPI\frontend
+      dockerfile: Dockerfile
+    container_name: frontend
+    depends_on:
+      clientrequestsapi:
+        condition: service_started
+        required: true
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5000"
+        protocol: tcp
+  mysql:
+    container_name: mysql-db
+    environment:
+      MYSQL_DATABASE: client_db
+      MYSQL_ROOT_PASSWORD: "12345678"
+    image: mysql:8.0
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 3306
+        published: "3306"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: mysql_data
+        target: /var/lib/mysql
+        volume: {}
+      - type: bind
+        source: E:\ProyectoDockerCompose\ClientRequestsAPI\database\init.sql
+        target: /docker-entrypoint-initdb.d/init.sql
+        bind:
+          create_host_path: true
+  phpmyadmin:
+    container_name: phpmyadmin
+    environment:
+      MYSQL_ROOT_PASSWORD: "12345678"
+      PMA_HOST: mysql-db
+      PMA_PORT: "3306"
+    image: phpmyadmin:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "8081"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose5204650953546653000_default
+volumes:
+  mysql_data:
+    name: dockercompose5204650953546653000_mysql_data

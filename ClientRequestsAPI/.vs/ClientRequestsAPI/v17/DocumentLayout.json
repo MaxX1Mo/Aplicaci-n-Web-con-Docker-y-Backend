@@ -1,0 +1,276 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|e:\\proyectodockercompose\\clientrequestsapi\\clientrequestsapi\\controllers\\clientrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|solutionrelative:clientrequestsapi\\controllers\\clientrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|e:\\proyectodockercompose\\clientrequestsapi\\clientrequestsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|solutionrelative:clientrequestsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97770D7-3F22-400E-8CE1-591A7BFE07CD}|docker-compose.dcproj|e:\\proyectodockercompose\\clientrequestsapi\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D97770D7-3F22-400E-8CE1-591A7BFE07CD}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97770D7-3F22-400E-8CE1-591A7BFE07CD}|docker-compose.dcproj|e:\\proyectodockercompose\\clientrequestsapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D97770D7-3F22-400E-8CE1-591A7BFE07CD}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|e:\\proyectodockercompose\\clientrequestsapi\\clientrequestsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|solutionrelative:clientrequestsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|e:\\proyectodockercompose\\clientrequestsapi\\clientrequestsapi\\clientrequestsapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|solutionrelative:clientrequestsapi\\clientrequestsapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97770D7-3F22-400E-8CE1-591A7BFE07CD}|docker-compose.dcproj|e:\\proyectodockercompose\\clientrequestsapi\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D97770D7-3F22-400E-8CE1-591A7BFE07CD}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|e:\\proyectodockercompose\\clientrequestsapi\\clientrequestsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|solutionrelative:clientrequestsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97770D7-3F22-400E-8CE1-591A7BFE07CD}|docker-compose.dcproj|e:\\proyectodockercompose\\clientrequestsapi\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D97770D7-3F22-400E-8CE1-591A7BFE07CD}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97770D7-3F22-400E-8CE1-591A7BFE07CD}|docker-compose.dcproj|e:\\proyectodockercompose\\clientrequestsapi\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D97770D7-3F22-400E-8CE1-591A7BFE07CD}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|e:\\proyectodockercompose\\clientrequestsapi\\clientrequestsapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|solutionrelative:clientrequestsapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|e:\\proyectodockercompose\\clientrequestsapi\\clientrequestsapi\\models\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|solutionrelative:clientrequestsapi\\models\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|e:\\proyectodockercompose\\clientrequestsapi\\clientrequestsapi\\clientrequestsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|solutionrelative:clientrequestsapi\\clientrequestsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|e:\\proyectodockercompose\\clientrequestsapi\\clientrequestsapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DDA89A-CB5E-486E-A560-AB1C89111EC7}|ClientRequestsAPI\\ClientRequestsAPI.csproj|solutionrelative:clientrequestsapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 127,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientRequestsAPI.http",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\ClientRequestsAPI.http",
+              "RelativeDocumentMoniker": "ClientRequestsAPI\\ClientRequestsAPI.http",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\ClientRequestsAPI.http",
+              "RelativeToolTip": "ClientRequestsAPI\\ClientRequestsAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-04T06:12:43.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-11-04T05:52:29.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "ClientRequestsAPI\\Dockerfile",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\Dockerfile",
+              "RelativeToolTip": "ClientRequestsAPI\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-04T05:53:15.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ClientRequestsAPI\\Program.cs",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\Program.cs",
+              "RelativeToolTip": "ClientRequestsAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T05:53:13.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-04T18:03:13.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-11-04T04:57:39.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-04T06:12:26.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ClientRequestsAPI\\appsettings.json",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\appsettings.json",
+              "RelativeToolTip": "ClientRequestsAPI\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-04T06:28:54.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientRequestsController.cs",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\Controllers\\ClientRequestsController.cs",
+              "RelativeDocumentMoniker": "ClientRequestsAPI\\Controllers\\ClientRequestsController.cs",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\Controllers\\ClientRequestsController.cs",
+              "RelativeToolTip": "ClientRequestsAPI\\Controllers\\ClientRequestsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:26:28.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-04T04:57:34.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ClientRequestsAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ClientRequestsAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:28:12.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientRequest.cs",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\Models\\ClientRequest.cs",
+              "RelativeDocumentMoniker": "ClientRequestsAPI\\Models\\ClientRequest.cs",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\Models\\ClientRequest.cs",
+              "RelativeToolTip": "ClientRequestsAPI\\Models\\ClientRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:27:32.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClientRequestsAPI.csproj",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\ClientRequestsAPI.csproj",
+              "RelativeDocumentMoniker": "ClientRequestsAPI\\ClientRequestsAPI.csproj",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\ClientRequestsAPI.csproj",
+              "RelativeToolTip": "ClientRequestsAPI\\ClientRequestsAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-04T08:33:27.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ClientRequestsAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\ProyectoDockerCompose\\ClientRequestsAPI\\ClientRequestsAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ClientRequestsAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T07:30:52.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
+              "DocumentMoniker": "E:\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeDocumentMoniker": "..\\..\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ToolTip": "E:\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeToolTip": "..\\..\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ViewState": "AgIAALsAAAAAAAAAAAAmwMcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-04T05:24:25.006Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
